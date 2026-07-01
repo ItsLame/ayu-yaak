@@ -1,0 +1,28 @@
+{
+  "name": "@itslame/ayu-yaak",
+  "displayName": "Ayu Themes",
+  "version": "0.1.0",
+  "description": "The ayu color scheme (Light, Mirage, Dark — bordered and borderless) as themes for Yaak.",
+  "keywords": [
+    "yaak",
+    "yaak-plugin",
+    "theme",
+    "ayu"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "yaakcli build",
+    "dev": "yaakcli dev",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@yaakapp/api": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@yaakapp/cli": "^0.7.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  }
+}
